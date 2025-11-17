@@ -9,7 +9,7 @@ public class BitDemo {
         number = number<<1; // shiftovanje broja 4 za jedno mesto
         System.out.println(number);
         int number2 = 4;
-        number2 = number2<<2; // shiftovanje broja 4 za dva mesta
+        number2 = number2>>2; // shiftovanje broja 4 za dva mesta
         System.out.println(number);
     }
 }
